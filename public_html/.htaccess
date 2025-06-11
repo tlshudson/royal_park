@@ -1,0 +1,17 @@
+##### LOCAWEB - NAO REMOVER #####
+#AddHandler php7-script .php
+#suPHP_ConfigPath /home/royalparkempreen2/
+##### LOCAWEB - NAO REMOVER #####
+
+#Redirecionamento de HTTP para HTTPS
+# RewriteEngine On
+# RewriteCond %{HTTPS} !=on
+# RewriteRule ^(.*)$ https://www.royalparkempreendimentos.com.br/$1 [R=301,L]
+#Redirecionamento de HTTP para HTTPS
+
+#Regras já existentes
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+#Regras já existentes
