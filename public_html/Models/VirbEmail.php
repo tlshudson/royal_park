@@ -21,15 +21,15 @@ class VirbEmail extends Model{
 
 		try{
 			$mail->IsSMTP(); 
-			$mail->Host 		= 'smtp.virtualizabrasil.com.br';; 
+			$mail->Host 		= '...';; 
 			$mail->SMTPAuth 	= true;
-			$mail->Username 	= "naoresponda@virtualizabrasil.com.br"; 
-			$mail->Password 	= "t2V5*ax5"; 
+			$mail->Username 	= ".."; 
+			$mail->Password 	= ""; 
 			$mail->Port 		= 587;
 
-			$mail->setFrom('naoresponda@virtualizabrasil.com.br', CLIENTE);
-			$mail->addAddress('comercial@royalparkempreendimentos.com.br', CLIENTE);
-			$mail->addAddress('contato@agenciafertil.com.br', CLIENTE);
+			$mail->setFrom('', CLIENTE);
+			$mail->addAddress('', CLIENTE);
+			$mail->addAddress('', CLIENTE);
 
 			$mail->IsHTML(true);
 			$mail->CharSet = "utf-8"; 

@@ -13,11 +13,11 @@ class LinkController extends Controller{
 		switch ($link) {
 			case 'whatsapp':
 				//$links->addLeads($link, $pagina);
-				header('location:https://api.whatsapp.com/send/?phone=553833650100');
+				header('');
 			break;
 			case 'telefone':
 				//$links->addLeads($link, $pagina);
-				header('location:tel:3833650100');
+				header('');
 			break;
 		}
 	}

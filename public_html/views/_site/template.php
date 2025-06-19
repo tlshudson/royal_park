@@ -8,8 +8,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="format-detection" content="telephone=no"/>
 	<meta name="robots" content="index,follow"/>
-	<meta name="generator" content="Vizu Comunicação" />
-	<meta name="author" content="http://www.vizucomunicacao.com.br" />
+	<meta name="generator" content="" />
+	<meta name="author" content="" />
 	<meta name="copyright" content="<?php echo CLIENTE ?>" />
 	<meta name="description" content="<?php echo $header['description']?>" /> 
 	<meta name="keywords" content="<?php echo $header['keywords']?>" />
@@ -40,22 +40,6 @@
 
 	<script type="text/javascript" src="https://google.com/recaptcha/api.js"></script>
 
-	<!-- Google Tag Manager ANTIGO-->
-	<!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-PM7LKBH');</script> -->
-	<!-- End Google Tag Manager ANTIGO-->
-
-	<!-- Google Tag Manager NOVO-->
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-KXB6T5WN');</script>
-	<!-- End Google Tag Manager NOVO-->
-
 	<!-- Meta Pixel Code -->
 	<meta name="facebook-domain-verification" content="kmzm1l2kglkhvwry53aa2dm9t8uce3" />
 	<script>
@@ -77,15 +61,6 @@
 </head>
 
 <body>
-	<!-- Google Tag Manager ANTIGO(noscript) -->
-	<!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PM7LKBH"
-	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
-	<!-- End Google Tag Manager ANITGO(noscript) -->
-
-	<!-- Google Tag Manager NOVO(noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KXB6T5WN"
-	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-	<!-- End Google Tag Manager NOVO(noscript) -->
 
 	<script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/3f05902c-2ff9-44e2-a081-5aa0e89c5248-loader.js" ></script>
 
@@ -142,7 +117,7 @@
 	</section>
 
 	<div class="whatsapp">
-		<a href="https://api.whatsapp.com/send/?phone=553833650100" target="_blank">
+		<a href="https://api.whatsapp.com/send/" target="_blank">
 			<img src="<?php echo IMG ?>iconeWhatsapp.png" alt="Whatsapp" alt="Whatsapp">
 		</a>
 	</div>
@@ -152,11 +127,11 @@
 			<div class="fixoBgTitulo flex">
 				<p>Central de atendimento</p>
 			</div>
-			<a href="https://api.whatsapp.com/send/?phone=553833650100" target="_blank" class="fixoBgBotao01 flex">
+			<a href="https://api.whatsapp.com/send/" target="_blank" class="fixoBgBotao01 flex">
 				<img src="">
 				<p>Fale conosco agora</p>
 			</a>
-			<a href="tel:03833650100" target="_blank" class="fixoBgBotao02 flex">
+			<a href="" target="_blank" class="fixoBgBotao02 flex">
 				<img src="">
 				<p>(38) 3365-0100</p>
 			</a>
@@ -176,23 +151,12 @@
 			</div>
 			<div class="footer03 flex">
 				<h2>Social</h2>
-				<a href="https://www.instagram.com/royalparkempreendimentos/" target="_blank" class="footerRSocial">
+				<a href="https://www.instagram.com//" target="_blank" class="footerRSocial">
 					<img src="<?php echo IMG ?>iconeInstagram.png" alt="Instagram" title="Instagram">
 				</a>
-				<a href="https://www.facebook.com/royalparkempreendimentos" target="_blank" class="footerRSocial">
+				<a href="https://www.facebook.com/" target="_blank" class="footerRSocial">
 					<img src="<?php echo IMG ?>iconeFacebook.png" alt="Facebook" title="Facebook">
 				</a>
-				<!--
-				<a class="footerRSocial">
-					<img src="<?php echo IMG ?>iconeTwitter.png" alt="Twitter" title="Twitter">
-				</a>
-				<a class="footerRSocial">
-					<img src="<?php echo IMG ?>iconeLinkedin.png" alt="Linkedin" title="Linkedin">
-				</a>
-				<a class="footerRSocial">
-					<img src="<?php echo IMG ?>iconeYoutube.png" alt="Youtube" title="Youtube">
-				</a>
-			-->
 			</div>
 		</div>
 		<div class="container flex">
@@ -208,13 +172,9 @@
 				</div>
 			</div>
 			<div class="footer06">
-				<p>Todos os direitos reservados. Feito por <a href="https://agenciafertil.com.br/">Agencia Fértil.</a></p>
 			</div>
 		</div>
 		<div class="container">
-			<div class="footer07">
-				<p>Empreendimento imobiliário desenvolvido sob responsabilidade das Empresas e sócios: ROYAL PARK INCORPORADORA E CONSTRUTORA LTDA – CNPJ: 33.743.609/0001-00. Rua Da Contagem Nº1985, Bairro Paracatuzinho, Paracatu/Mg. Memorial de Incorporação. Matrícula 32.479Cartório do Registro de Imóveis Geraldo Campos em Paracatu/MG na data02/07/2020. Infraestrutura está pronta - Habite-se nº 4203 na data 24/08/2021. Todas as propostas e condições de pagamento ficam sujeitos a aprovação pela empresa. Todos os valores estão expressos em REAIS (R$). Reservamos o direito de alteração, sem aviso prévio. Imagens meramente ilustrativas.</p>
-			</div>
 		</div>
 	</footer>
 
