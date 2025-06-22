@@ -38,10 +38,6 @@ Este projeto é uma página de apresentação para um empreendimento comercial, 
 - **CSS3** – Estilização (via classes de layout como `.container`, `.flex`, etc.)
 - **PHP** – Inclusão dinâmica de imagens com `<?php echo IMG ?>`
 
-## 📸 Pré-visualização
-
-*(Imagens ilustrativas serão carregadas dinamicamente via PHP, por meio da constante `IMG`.)*
-
 ## 🚀 Como Usar
 
 1. Clone o repositório:
